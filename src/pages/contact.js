@@ -5,7 +5,7 @@ export default function Contact(){
     return(
         <Layout>
             <div>
-            <h1>hit me up!</h1>
+                <h1>hit me up!</h1>
             </div>
         </Layout>
     )
