@@ -11,19 +11,19 @@ import Image from "../components/image"
 import { Link } from "gatsby"
 
 <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+<Link to="/using-typescript/">Go to "Using TypeScript"</Link>
 
 3.)footer
 <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+      © {new Date().getFullYear()}, Built with
+      {` `}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+</footer>
 
 4.) don't want to use layout component as of now
 import Layout from "../components/layout"
 
 <Layout>
-    <SEO title="Home" />
-    <h1>Portfolio</h1>
-  </Layout>
+      <SEO title="Home" />
+      <h1>Portfolio</h1>
+</Layout>
