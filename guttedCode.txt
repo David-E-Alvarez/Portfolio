@@ -1,0 +1,14 @@
+#this is for code im taking out of gatsby's default starter in case i need to reference
+
+1.) stuff for image
+import Image from "../components/image"
+
+<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Image />
+</div>
+
+2.) stuff for links
+import { Link } from "gatsby"
+
+<Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
