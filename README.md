@@ -7,7 +7,6 @@
 <h1 align="center">
   My site using Gatsby's default starter
 </h1>
-[my site](https://www.davidealvarez.com/)
-
+https://www.davidealvarez.com/
 
 
