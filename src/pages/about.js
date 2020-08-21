@@ -1,10 +1,11 @@
 import React from "react"
+import Header from '../components/header.js'
 
 export default function About(){
-    return(
+    return(        
         <div>
-            <h1>About</h1>
-            <p>Aspiring rockstar</p>
+            <Header/>
+            <h1>about.js</h1>
         </div>
     )
 }

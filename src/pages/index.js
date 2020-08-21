@@ -1,9 +1,9 @@
 import React from "react"
-
+import Header from '../components/header.js'
 
 const IndexPage = () => {
   return(
-      <h1>Portfolio</h1>
+    <Header/>
   )
 }
 
