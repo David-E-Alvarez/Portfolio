@@ -1,18 +1,15 @@
 import React from 'react';
 import { Link } from "gatsby"
+import "../styles/header.css"
 
 export default function Header(props){
   return(
-    <div style={{border: `2px solid red`}}>
-      <h1>
-        <Link to="/" style={{
-          color: `black`,
-          textDecoration: `none`,
-        }}>David_E_Alvarez
-        </Link>
-      </h1>
-      <nav>
+    <div>
+      <nav>    
         <ul>
+          <li>
+            <Link to="/" id="Link">David_E_Alvarez</Link>
+          </li>
           <li>
             <Link to="/about">About</Link>
           </li>
