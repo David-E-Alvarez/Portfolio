@@ -12,6 +12,9 @@ export default function About(){
                 Made in California. CSU Monterey Bay graduate. Current Lambda School student. Reader. Thinker. Dreamer. Yogi. Healthy. Lover. 
             </p>
             <h3>My Work</h3>
+            <a href="https://github.com/David-E-Alvarez">
+                
+            </a>
         </div>
         </>
     )
