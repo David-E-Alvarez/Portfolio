@@ -13,7 +13,7 @@ export default function About(){
             </p>
             <h3>My Work</h3>
             <a href="https://github.com/David-E-Alvarez">
-                
+                <h6>future github icon</h6>
             </a>
         </div>
         </>
