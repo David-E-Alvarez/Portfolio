@@ -9,7 +9,7 @@ export default function Contact(){
         <>
         <Header/>
         <div id="contact_div">
-            <a href="https://www.linkedin.com/in/david-e-alvarez/">
+            <a target="_blank" href="https://www.linkedin.com/in/david-e-alvarez/">
                 <FontAwesomeIcon size="3x" icon={['fab','linkedin'] }/>
             </a>
         </div>

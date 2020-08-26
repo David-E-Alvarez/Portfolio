@@ -11,7 +11,7 @@ export default function About(){
             <p>
                 Made in California. CSU Monterey Bay graduate. Current Lambda School student. Reader. Thinker. Dreamer. Yogi. Healthy. Lover. 
             </p>
-            <a href="https://github.com/David-E-Alvarez">
+            <a target="_blank" href="https://github.com/David-E-Alvarez">
                 <FontAwesomeIcon size="3x" icon={['fab','github'] }/>
             </a>
         </div>
