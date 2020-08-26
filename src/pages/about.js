@@ -9,10 +9,9 @@ export default function About(){
         <div id="about_div">
             <h1>About Me</h1>
             <p>
-                Carajillo a id, percolator, robusta wings ut et eu whipped lungo. 
-                Sweet chicory, strong, black qui, cultivar rich strong organic sweet carajillo.
-                 Steamed dripper sit cortado cappuccino aged dripper caramelization variety body medium.
+                Made in California. CSU Monterey Bay graduate. Reader. Thinker. Dreamer. Yogi. Healthy. Lover. 
             </p>
+            <h3>My Work</h3>
         </div>
         </>
     )
