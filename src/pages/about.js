@@ -1,19 +1,18 @@
 import React from "react"
 import Header from '../components/header.js'
 import "../styles/global.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function About(){
     return(     
         <>   
         <Header/>
         <div id="about_div">
-            <h1>About Me</h1>
             <p>
                 Made in California. CSU Monterey Bay graduate. Current Lambda School student. Reader. Thinker. Dreamer. Yogi. Healthy. Lover. 
             </p>
-            <h3>My Work</h3>
             <a href="https://github.com/David-E-Alvarez">
-                <h6>future github icon</h6>
+                <FontAwesomeIcon size="3x" icon={['fab','github'] }/>
             </a>
         </div>
         </>

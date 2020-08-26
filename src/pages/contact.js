@@ -1,6 +1,7 @@
 import React from "react"
 import Header from '../components/header.js'
 import "../styles/global.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export default function Contact(){
@@ -8,9 +9,8 @@ export default function Contact(){
         <>
         <Header/>
         <div id="contact_div">
-            <h1>Contact Me</h1>
             <a href="https://www.linkedin.com/in/david-e-alvarez/">
-                <h4>soon to be linkedin icon</h4>
+                <FontAwesomeIcon size="3x" icon={['fab','linkedin'] }/>
             </a>
         </div>
         </>

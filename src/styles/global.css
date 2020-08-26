@@ -4,12 +4,14 @@ html{
     color: white;
 }
 
+#title{
+    text-align: center;
+}
+
 #about_div{
-    border: 2px white solid;
     text-align: center;
 }
 
 #contact_div{
-    border: 2px white solid;
     text-align: center;
 }
