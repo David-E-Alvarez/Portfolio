@@ -11,10 +11,10 @@ export default function Header(props){
             <Link to="/" id="Link">David_E_Alvarez</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link id="link_id" to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link id="link_id" to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

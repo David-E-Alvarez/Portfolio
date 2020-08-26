@@ -1,11 +1,14 @@
 import React from "react"
 import Header from '../components/header.js'
+import "../styles/global.css"
 
 export default function Contact(){
     return(
-        <div>
-            <Header/>
-            <h1>contact.js</h1>
+        <>
+        <Header/>
+        <div id="contact_div">
+            <h1>Contact Me</h1>
         </div>
+        </>
     )
 }

@@ -2,3 +2,13 @@ html{
     background-color: pink;
     font-family: 'Quantico', sans-serif;
 }
+
+#about_div{
+    border: 2px black solid;
+    text-align: center;
+}
+
+#contact_div{
+    border: 2px black solid;
+    text-align: center;
+}

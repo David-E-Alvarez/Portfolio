@@ -6,11 +6,15 @@ nav{
 
 #Link{
     color: black;
-    text-decoration: none
+    text-decoration: none;
 }
 
 li{
     display: inline-block;
     margin-right: 1rem;
+}
+
+#link_id{
     text-decoration: none;
 }
+
