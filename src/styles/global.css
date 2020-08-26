@@ -1,14 +1,15 @@
 html{
-    background-color: darkgray;
+    background-color: black;
     font-family: 'Quantico', sans-serif;
+    color: white;
 }
 
 #about_div{
-    border: 2px black solid;
+    border: 2px white solid;
     text-align: center;
 }
 
 #contact_div{
-    border: 2px black solid;
+    border: 2px white solid;
     text-align: center;
 }
