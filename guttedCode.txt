@@ -120,3 +120,17 @@ Header.defaultProps = {
 }
 
 export default Header
+
+
+//layout example
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Layout from "../components/layout";
+
+const IndexPage = () => (
+  <Layout>
+    <h1>Index page</h1>
+    <FontAwesomeIcon icon={['fab','github']} />
+  </Layout>
+)
+export default IndexPage;
