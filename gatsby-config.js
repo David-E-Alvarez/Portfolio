@@ -5,7 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,//dont want to touch this dont know if came stock
     `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
