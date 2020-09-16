@@ -5,3 +5,5 @@ title: "Second Post"
 tags: ['blog']
 excerpt: "Thinking about writing an article/blog about making a nav bar"
 ---
+
+test content
