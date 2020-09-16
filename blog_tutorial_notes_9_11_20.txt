@@ -1,0 +1,30 @@
+-how to start a blog in gatsby(bing search)
+-Dave Ceddia
+https://daveceddia.com/start-blog-gatsby-netlify/#:~:text=%20Start%20a%20Blog%20in%202019%20with%20Gatsby.js,look%20for%20blog%20posts%20under%20the...%20More%20
+-what is Gatsby?
+	-"static site generator"(Google it)
+	-"backed by React and GraphQL"
+-Markdown: In Gatsby do I write in Markdown?
+	- Gatsby takes Markdown files and generates HTML blog posts.
+
+NOTE: this article uses a Gatsby blog starter(Google "gatsby starters")
+
+-------------------------------------------------------------------------------
+-https://codeburst.io/beginner-guide-to-start-blog-using-gatsby-4865f4ba020e
+(uses blog starter as well)
+---------------------------------------------------------------------
+NOTE: if i'm going to write a blog post about how I made my blog I 
+have to mention how I started my Gatsby site and the starter used.
+
+
+"how to start a gatsby site" (google search)
+-https://www.gatsbyjs.com/tutorial/part-zero/
+	- didn't use starter used
+	- i did gatsby new portfolio and the starter it uses is a default one
+-don't know exactly how much I can assume someone knows for this blog
+post to be helpful.
+-----------------------------------------------------------------
+think this gatsby blog article is the winner:
+https://www.gatsbyjs.com/blog/2017-07-19-creating-a-blog-with-gatsby/#gatsby-skip-here
+-------------------------------------------------------------------------
+

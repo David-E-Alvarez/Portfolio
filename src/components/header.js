@@ -16,6 +16,9 @@ export default function Header(props){
           <li>
             <Link id="link_id" to="/contact">Contact</Link>
           </li>
+          <li>
+            <Link id="link_id" to="/blog">Blog</Link>
+          </li>
         </ul>
       </nav>
     </div>
