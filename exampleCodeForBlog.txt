@@ -1,0 +1,69 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+
+module.exports = {
+  /* Your site config here */
+  siteMetadata: {
+    title: "Flit Blog",
+    description: "test blog to learn how to add blog to my portfolio"
+  },
+  plugins: [
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
+    }
+  ],  
+}
+
+----------------------------------------------------------------
+
+index.js
+import React from "react"
+import {StaticQuery, graphql} from 'gatsby'
+
+const TitleAndDescription = ({data}) => {
+  const title = data.site.siteMetadata.title
+  const description = data.site.siteMetadata.description
+
+  return(
+    <div>
+      <h2>{title}</h2>
+      <p>{description}</p>
+    </div>
+  )
+}
+
+const Header = () => {
+  return(
+    <StaticQuery
+      query={graphql`
+        query{
+          site {
+            siteMetadata {
+              title
+              description
+            }
+          }
+        }
+      `}
+      render={data => <TitleAndDescription data={data}/>}
+    />
+  )
+}
+
+const Layout = () => {
+  return(
+    <div>
+      <Header/>
+    </div>
+  )
+}
+
+export default Layout
