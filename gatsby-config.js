@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-transformer-remark`,
     `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
