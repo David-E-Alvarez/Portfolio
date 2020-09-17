@@ -22,6 +22,7 @@ export default function Blog(data){
                   edges{
                     node{
                       frontmatter{
+                        date
                         title
                       }
                     }
@@ -29,7 +30,10 @@ export default function Blog(data){
                 }
               }
             `}
-            render={data => <div>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</div>}
+            render={data => <div>
+              {data.allMarkdownRemark.edges[1].node.frontmatter.date}{": "}
+              {data.allMarkdownRemark.edges[1].node.frontmatter.title}
+                          </div>}
           />
         </div>
         </>
