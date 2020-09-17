@@ -1,7 +1,7 @@
 import React from "react"
 import Header from '../components/header.js'
 import "../styles/global.css"
-import {StaticQuery, graphql} from 'gatsby'
+import {graphql, Link} from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,10 +16,13 @@ export default function Blog({data}){//destructured query stuff(google it(js des
         <Header/>
         <div id="blog_div">
           {edges.map(edge => {
-            console.log("edge: ", edge)
             const {frontmatter} = edge.node
             return(
-              <div key={frontmatter.path}>{frontmatter.date}: {frontmatter.title}</div>
+              <>
+              <div key={frontmatter.path}>
+                <Link to={frontmatter.path}>{frontmatter.date}: {frontmatter.title}</Link>
+              </div>
+              </>
             )
           })}
         </div>
@@ -35,6 +38,7 @@ export const query = graphql`
       edges{
         node{
           frontmatter{
+            path
             date
             title
           }
