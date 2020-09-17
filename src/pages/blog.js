@@ -9,12 +9,28 @@ library.add(fab)
 
 
 
-export default function Blog(){
+export default function Blog(data){
+    console.log("data: ", data)
     return(     
         <>   
         <Header/>
         <div id="blog_div">
-          <h1>Future Blog Page</h1>
+          <StaticQuery
+            query={graphql`
+              query{
+                allMarkdownRemark{
+                  edges{
+                    node{
+                      frontmatter{
+                        title
+                      }
+                    }
+                  }
+                }
+              }
+            `}
+            render={data => <div>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</div>}
+          />
         </div>
         </>
     )
