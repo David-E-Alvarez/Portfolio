@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `DEA Portfolio`,
+    title: `My Portfolio`,
     description: `Portfolio site of David Alvarez`,
-    author: `@gatsbyjs`,
+    author: `David E Alvarez`,
   },
   plugins: [
     `gatsby-transformer-remark`,

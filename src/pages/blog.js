@@ -9,36 +9,13 @@ library.add(fab)
 
 
 
-export default function Blog({data}){
-    const {edges} = data.allMarkdownRemark
-    console.log('---->',edges)
+export default function Blog(){
     return(     
         <>   
         <Header/>
         <div id="blog_div">
-            {edges.map(edge => {
-                const {frontmatter} = edge.node
-                return(
-                    <div key={frontmatter.path}>{frontmatter.title}</div>
-                )
-            })}
+          <h1>Future Blog Page</h1>
         </div>
         </>
     )
 }
-
-export const query = graphql`
-    query postsQuery{
-        allMarkdownRemark {
-            edges {
-              node {
-                frontmatter {
-                  title
-                  date
-                  path
-                }
-              }
-            }
-          }
-    }
-`
