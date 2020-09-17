@@ -30,7 +30,7 @@ export default function Blog({data}){//destructured query stuff(google it(js des
 export const query = graphql`
   query PostsQuery{
     allMarkdownRemark(
-      sort: {order: DESC, fields: [frontmatter___date]}
+      sort: {order: ASC, fields: [frontmatter___date]}
     ){
       edges{
         node{
