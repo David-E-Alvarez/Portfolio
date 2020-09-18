@@ -47,8 +47,3 @@ export const query = graphql`
     }
   }
 `
-
-// render={data => <div>
-//   {data.allMarkdownRemark.edges[1].node.frontmatter.date}{": "}
-//   {data.allMarkdownRemark.edges[1].node.frontmatter.title}
-//               </div>}

@@ -1,15 +1,13 @@
 import React from "react"
 import Header from "./header.js"
 
-export default function Layout({children}){
-  console.log("hhheeeeeyyyyy!")
+export default function Layout(){
+  
   return(
-    <>
-    <Header>
-      <div>
-      {children}
-      </div>
-    </Header>
-    </>
+    <div>
+      <Header/>
+    </div>
   )
 }
+
+
