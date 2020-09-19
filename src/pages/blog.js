@@ -11,7 +11,6 @@ library.add(fab)
 
 export default function Blog({data}){//destructured query stuff(google it(js desctructure))
     const {edges} = data.allMarkdownRemark//edges is fancy word for stuff from down in query on line 25
-    console.log("data: ", data)
     return(     
         <>   
         <Header/>
