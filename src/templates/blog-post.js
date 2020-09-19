@@ -1,5 +1,6 @@
 import React from 'react'
 import {graphql} from 'gatsby'
+import "../styles/global.css"
 
 const BlogPostTemplate = (props) => {
     console.log("props: ", props)
