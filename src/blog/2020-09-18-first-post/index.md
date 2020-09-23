@@ -36,3 +36,6 @@ Note: I installed my pluggins via npm so make sure you have that and then you do
 `gatsby-transformer-remark` is the other main one. Google them and check out my `gatsby-config.js` on my repo but look at other devs' repo's to see how they set stuff up to get an idea of what you need and how stuff works. I know I'm a tinkerer and need to play around by running bits and pieces of code here and there. I can't just read a tutorial or docs. I DID learn though that videos definitely work for me but I have to be coding along and pause to experiment on my own. 
 
 3.) Gatsby directory file structure
+
+![](/home/david/portfolio/src/images/Capture.PNG)
+
