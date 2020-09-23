@@ -37,5 +37,6 @@ Note: I installed my pluggins via npm so make sure you have that and then you do
 
 3.) Gatsby directory file structure
 
-![](/home/david/portfolio/src/images/Capture.PNG)
+
+![gatsby file directory](https://user-images.githubusercontent.com/10346209/94084935-9cd2e500-fdbb-11ea-93a8-8b356f6c1336.PNG)
 
