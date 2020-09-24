@@ -1,5 +1,5 @@
 ---
-path: "/first-post"
+path: "/how-i-added-blog"
 date: "2020-09-16"
 title: "How I(emphasis on my process) added blog to my site"
 tags: ['blog']
@@ -37,6 +37,19 @@ Note: I installed my pluggins via npm so make sure you have that and then you do
 
 3.) Gatsby directory file structure
 
-
 ![gatsby file directory](https://user-images.githubusercontent.com/10346209/94084935-9cd2e500-fdbb-11ea-93a8-8b356f6c1336.PNG)
+
+Let's focus on the `blog` folder which contains our markdown file, `blog.js` in the `pages` folder, `blog-post.js` in the `templates` folder, and `gatsby-node.js`.
+
+4.) GraphQL queries
+
+`blog.js` contains a query that get's info in from `index.md` file's to show me what posts there is. `blog.js` is also a "component" which is React speak(GTS.google that stuff) 
+
+`blog-post.js` is also a component (this page is that component) and this one has a query that gets all the information you're looking at on this page.
+
+5.) `gatsby-node.js`
+
+This file is what makes the magic happen. Honestly this is still something I have to research to really understand but basically `gatsby-node.js` contains information about `blog-post.js` and renders the information from the md files onto the `blog-post.js` component. Google. [Link](https://www.gatsbyjs.com/tutorial/part-seven/).
+
+SUMMARY: If you're new and I confused you more ignore everything I said. If you already have a Gatsby site just watch the Egghead video. If you're starting from scratch maybe you can use a blog starter, if not and you're new to Gatsby like me play around with the Gatsby queries and try to understand the Gatsby ecosystem. If you already know React things shouldn't feel too bad. Basically for me the biggest challenge was understanding the queries and how to make stuff render from `gatsby-node.js`. Good luck and eventually I want to add an email so you can spam me but really to suggest things or offer feedback. Thank you and take care. 
 
