@@ -9,4 +9,7 @@
 </h1>
 https://www.davidealvarez.com/
 
+Other sites I'm working on:
+http://www.freedomhomefellowship.com/ (Squarespace)
+
 
