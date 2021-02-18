@@ -6,7 +6,7 @@ const IndexPage = () => {
   return(
     <div>
       <Header/>
-      <p id="title">aspiring software engineer</p>
+        <p id="title">software engineer</p>
     </div>
   )
 }
