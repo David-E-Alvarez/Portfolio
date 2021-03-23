@@ -16,7 +16,7 @@ Here is a great resource on what a <a href="https://en.ryte.com/wiki/Tracking_Pi
 
 Initially I had no idea what a tracking pixel was. The first resource I came across about tracking pixels was a <a href="http://engineering.curalate.com/2016/10/19/building-a-tracking-pixel.html" target="_blank">blog</a> dated 10/19/2016. Here's another great resource if you're more visual: <a href="https://www.youtube.com/watch?v=r5NgNWk3ONI" target="_blank">YouTube Video</a>
 
-Basically a tracking pixel is a way for a site to better understand its users. I'll avoid the ethics of tracking pixels but know there is a lot of discussion/philosophies about data collection in relation to users' data privacy rights: <a href="https://www.emotiv.com/glossary/data-privacy/#:~:text=Data%20Privacy%20describes%20the%20practices,used%20for%20its%20intended%20purpose.&text=Information%20privacy%20is%20the%20right,information%20is%20collected%20and%20used." target="_blank">Data privacy resource</a>.
+Basically a tracking pixel is a way for a site to better understand its users. I'll avoid the ethics of tracking pixels but know there is a lot of discussion/philosophies about data collection in relation to users' data privacy rights: <a href="https://www.emotiv.com/glossary/data-privacy/" target="_blank">Data privacy resource</a>.
 
 
 
