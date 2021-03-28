@@ -15,17 +15,18 @@ const BlogPostTemplate = ({data,pageContext}) => {
             <div className='blogpost'
                 dangerouslySetInnerHTML={{__html:html}}
             />
-            {next &&
-            <Link to={next.frontmatter.path}>
-                Next
-            </Link>
-            }
-
             {prev &&
             <Link to={prev.frontmatter.path}>
                 Previous
             </Link>
             }
+            {" "}
+            {next &&
+            <Link to={next.frontmatter.path}>
+                Next
+            </Link>
+            }
+            
         </div>
         </>
     )
