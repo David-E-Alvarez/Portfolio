@@ -12,7 +12,7 @@ export default function About(){
         <Header/>
         <div id="about_div">
             <p>
-                Made in California. CSU Monterey Bay graduate. Current Lambda School student. Reader. Thinker. Dreamer. Yogi. Healthy. Lover. 
+                Made in California. CSU Monterey Bay graduate. Recent Lambda School finisher. Thinker. Reader. Lover. Yogi. Friend. 
             </p>
             <a target="_blank" href="https://github.com/David-E-Alvarez">
                 <FontAwesomeIcon size="3x" icon={['fab','github'] }/>
