@@ -18,5 +18,9 @@ Initially I had no idea what a tracking pixel was. The first resource I came acr
 
 Basically a tracking pixel is a way for a site to better understand its users. I'll avoid the ethics of tracking pixels but know there is a lot of discussion/philosophies about data collection in relation to users' data privacy rights: <a href="https://www.emotiv.com/glossary/data-privacy/" target="_blank">Data privacy resource</a>.
 
+#### Building a Tracking Pixel
+
+Ok. That's enough information about tracking pixels. Let's move onto building one. As mentioned I will be adding one to this site. In the blog post I provide a link for the tracking pixel is literally an HTML <img> element. The author of the blog post says their pixel is a "checkout pixel" that is on a checkout confirmation page that collects transaction data. The pixel sends data from the webpage it lives on. The pixel is housed in a Javascript file. Besides the pixel itself you need a server to receive what you want to track and a way to stream and store the data. AWS Kinesis Firehow is how they store and stream the data but I haven't decided if I want to use that and what my options are for building a pixel because you want to choose a product depending on what you want to do.  
+
 
 
